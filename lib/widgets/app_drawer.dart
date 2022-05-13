@@ -33,6 +33,7 @@ class AppDrawer extends StatelessWidget {
             width: double.infinity,
             padding: EdgeInsets.only(top: 40),
             alignment: Alignment.center,
+            // ignore: deprecated_member_use
             color: Theme.of(context).accentColor,
             child: Text(
               'دليلك السياحي',

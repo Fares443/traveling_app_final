@@ -35,6 +35,7 @@ class _CategoryTripsScreenState extends State<CategoryTripsScreen> {
     super.didChangeDependencies();
   }
 
+  // ignore: unused_element
   void _removeTrip(String tripId) {
     setState(() {
       displayTrips.removeWhere((trip) => trip.id == tripId);

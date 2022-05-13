@@ -133,6 +133,7 @@ class TripItem extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.today,
+                        // ignore: deprecated_member_use
                         color: Theme.of(context).accentColor,
                       ),
                       SizedBox(
@@ -145,6 +146,7 @@ class TripItem extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.wb_sunny,
+                        // ignore: deprecated_member_use
                         color: Theme.of(context).accentColor,
                       ),
                       SizedBox(
@@ -157,6 +159,7 @@ class TripItem extends StatelessWidget {
                     children: [
                       Icon(
                         Icons.family_restroom,
+                        // ignore: deprecated_member_use
                         color: Theme.of(context).accentColor,
                       ),
                       SizedBox(
